@@ -1,0 +1,9 @@
+diff -rupN clap-1.2.6.old/clap.pc.in clap-1.2.6/clap.pc.in
+--- clap-1.2.6.old/clap.pc.in	2025-03-11 09:07:08.000000000 +0100
++++ clap-1.2.6/clap.pc.in	2025-06-08 21:10:59.632969539 +0200
+@@ -5,4 +5,4 @@ Name: clap
+ Description: The interface headers for the CLAP audio plugin API
+ Version: @CMAKE_PROJECT_VERSION@
+ 
+-Cflags: -I${includedir}
++Cflags: -I${includedir}/clap
