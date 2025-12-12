@@ -9,7 +9,7 @@ Url:	https://cleveraudio.org/
 Source0:	https://github.com/free-audio/clap/archive/refs/tags/%{name}-%{version}.tar.gz
 Patch0:		clap-1.2.6-fix-pkgconfig-file.patch
 BuildSystem:	cmake
-#BuildRequires:		cmake >= 3.21
+BuildRequires:		cmake >= 3.21
 # Header only package
 BuildArch:		noarch
 
@@ -43,11 +43,3 @@ This package contains the development files for %{name}.
 %prep
 %autosetup -p1
 
-
-%build
-%cmake
-%make_build
-
-
-%install
-%make_install -C build
