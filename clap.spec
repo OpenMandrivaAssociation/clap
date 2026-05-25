@@ -1,7 +1,6 @@
-
 Summary:		Audio Plugin API
 Name:		clap
-Version:		1.2.7
+Version:		1.2.8
 Release:		1
 License:		MIT
 Group:	Sound
