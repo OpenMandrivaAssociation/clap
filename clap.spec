@@ -1,6 +1,6 @@
 Summary:		Audio Plugin API
 Name:		clap
-Version:		1.2.8
+Version:		1.2.10
 Release:		1
 License:		MIT
 Group:	Sound
@@ -9,6 +9,7 @@ Source0:	https://github.com/free-audio/clap/archive/refs/tags/%{name}-%{version}
 Patch0:		clap-1.2.6-fix-pkgconfig-file.patch
 BuildSystem:	cmake
 BuildRequires:		cmake >= 3.21
+BuildRequires:		ninja
 # Header only package
 BuildArch:		noarch
 
